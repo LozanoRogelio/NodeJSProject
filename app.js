@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.listen(3000);
 
 // middleware & static file
-app.use(express.static('public'))
+app.use(express.static('public'));
 app.use(morgan('dev'));
 
 app.get('/', (req, res) => {

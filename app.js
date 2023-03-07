@@ -33,7 +33,7 @@ app.get('/about', (req, res) => {
 // new blog
 app.get('/blogs/create', (req, res) => {
    res.render('create', { title: 'Create a new blog' });
-})
+});
 
 // 404 Page
 app.use((req, res) => {
